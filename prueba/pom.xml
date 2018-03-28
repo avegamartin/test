@@ -5,4 +5,18 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Proyecto de prueba</name>
   <description>Proyecto Maven de prueba.</description>
+  
+  <scm>
+  	<connection>scm:git:https://github.com/avegamartin/test.git</connection>
+  </scm>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-release-plugin</artifactId>
+	        <version>2.5.3</version>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>
