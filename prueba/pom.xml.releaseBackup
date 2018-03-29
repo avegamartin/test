@@ -2,14 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>es.avega.test</groupId>
   <artifactId>prueba</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>Proyecto de prueba</name>
   <description>Proyecto Maven de prueba.</description>
   
   <scm>
-    <url>https://github.com/avegamartin/test</url>
   	<connection>scm:git:https://github.com/avegamartin/test.git</connection>
-    <tag>prueba-0.0.1</tag>
   </scm>
   
   <build>
